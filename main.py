@@ -4,7 +4,7 @@ loc = get('https://ipapi.co/json/')
 ip = loc.json() 
 while (True) :
     choice = input("\nWhat do you want to display? \n"
-                   "1. Public Ip Address \n"
+                   "1. Public IP Address \n"
                    "2. Current Location \n"
                    "3. Capital of the Country \n"
                    "4. Country Population\n"
